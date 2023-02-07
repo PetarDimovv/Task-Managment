@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\ICommands\**" />
+    <EmbeddedResource Remove="Commands\ICommands\**" />
+    <None Remove="Commands\ICommands\**" />
+  </ItemGroup>
+
+</Project>
